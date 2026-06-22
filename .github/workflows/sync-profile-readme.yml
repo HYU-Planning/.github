@@ -1,0 +1,29 @@
+name: Sync profile README to private repo
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'profile/README.md'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v4
+
+      - name: Clone private repo and sync README
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+          git clone https://x-access-token:${{ secrets.PRIVATE_REPO_PAT }}@github.com/HYU-Planning/.github-private.git private-repo
+
+          cp profile/README.md private-repo/profile/README.md
+
+          cd private-repo
+          git add profile/README.md
+          git diff --staged --quiet || git commit -m "sync: update profile README from public repo"
+          git push
