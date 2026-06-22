@@ -37,7 +37,7 @@
 
 | Repository | 담당팀 | 설명 |
 |---|---|---|
-| `hy-idea-board` | 아이디어센터 | HY-IdeaBoard 데이터 플랫폼 연동 및 분석 도구 |
+| `hy-idea-board` | 한양IDEA센터 | HY-IdeaBoard 데이터 플랫폼 연동 및 분석 도구 |
 | `budget-analysis` | 예산팀 | 예산 데이터 분석 및 시각화 자동화 |
 | `performance-dashboard` | 평가전략팀 | 대학 성과지표 대시보드 |
 | `admin-ai-toolkit` | 경영혁신팀 | 행정 업무 AI 활용 도구 모음 |
