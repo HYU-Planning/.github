@@ -23,7 +23,7 @@
 | 평가전략팀 | `strategy-evaluation` | 대학 성과 평가, 지표 관리, 전략 기획 |
 | 예산팀 | `budget` | 예산 편성·집행·분석, 재원 배분 |
 | 경영혁신팀 | `management-innovation` | 행정 프로세스 혁신, 제도 개선 |
-| 아이디어센터 | `idea-center` | AI 도구 연구, HY-IdeaBoard 운영, 혁신 과제 발굴 |
+| 한양IDEA센터 | `idea-center` | AI 도구 연구, HY-IdeaBoard 운영, 혁신 과제 발굴 |
 
 ---
 
