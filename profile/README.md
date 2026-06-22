@@ -20,10 +20,11 @@
 
 | 팀 | Team Slug | 주요 업무 |
 |---|---|---|
-| 평가전략팀 | `strategy-evaluation` | 대학 성과 평가, 지표 관리, 전략 기획 |
-| 예산팀 | `budget` | 예산 편성·집행·분석, 재원 배분 |
 | 경영혁신팀 | `management-innovation` | 행정 프로세스 혁신, 제도 개선 |
+| 평가전략팀 | `strategy-evaluation` | 대학 성과 평가, 지표 관리, 전략 기획 |
 | 한양IDEA센터 | `idea-center` | AI 도구 연구, HY-IdeaBoard 운영, 혁신 과제 발굴 |
+| 예산팀 | `budget` | 예산 편성·집행·분석, 재원 배분 |
+
 
 ---
 
@@ -37,10 +38,11 @@
 
 | Repository | 담당팀 | 설명 |
 |---|---|---|
+| `admin-ai-toolkit` | 경영혁신팀 | 행정 업무 AI 활용 도구 모음 |
+| `performance-dashboard` | 평가전략팀 | 대학 성과지표 대시보드 |
 | `hy-idea-board` | 한양IDEA센터 | HY-IdeaBoard 데이터 플랫폼 연동 및 분석 도구 |
 | `budget-analysis` | 예산팀 | 예산 데이터 분석 및 시각화 자동화 |
-| `performance-dashboard` | 평가전략팀 | 대학 성과지표 대시보드 |
-| `admin-ai-toolkit` | 경영혁신팀 | 행정 업무 AI 활용 도구 모음 |
+
 
 ---
 
